@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/17308968-a73c-47e7-aadd-4a52621ab3f0)
 
 This project is built with the bootstrap 5. <br>
-This project is the final project for boostrap course. <br>
+This project is the final project for bootstrap course. <br>
 This project template is inspired by https://bootstrapmade.com/content/demo/Arsha <br>
 Watch on YouTube https://www.youtube.com/@LomhoDev <br>
 
