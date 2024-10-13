@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="/assets/boostrap5/css/bootstrap.min.css">
+    <!-- bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        .cbg-primary{
+            background-color: #385180;
+            color: #ffffff;
+        }
+        .ctext-primary{
+            color: #385180;
+        }
+        .navbar *{
+            color: #ffffff;
+        }
+        .navbar .mouseover .nav-item .nav-link:hover{
+            background-color: #48b3e1;
+            color: #ffffff;
+        }
+        .btn-watch-video:hover{
+            border: 1px solid #48b3e1;
+        }
+        .about-title-border::after{
+           content: '';
+           border-bottom: 3px solid #48b3e1;
+           width: 50px;
+           display: block;
+           margin: auto;
+           position: relative;
+           top: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar section  -->
+    <nav class="navbar navbar-expand-lg cbg-primary sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><strong>ARSHA</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mouseover">
+              <li class="nav-item">
+                <a class="nav-link rounded-pill" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded-pill" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded-pill" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded-pill" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded-pill" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded-pill" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-info rounded-pill" href="#">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- hero section  -->
+    <div class="hero cbg-primary" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 d-flex align-items-center">
+                    <div>
+                        <h3 class="text-white fw-bold">Better Solutions For Your Business</h3>
+                        <p class="text-light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            suscipit adipisicing adipisicing!
+                            suscipit adipisicing adipisicing !
+                        </p>
+                        <a type="button" class="btn btn-info rounded-pill fw-bold text-white">Get Started</a>
+                        <a  class="btn text-white rounded-pill btn-watch-video fw-bold"> <i class="bi bi-play-circle"></i> Watch Video</a>
+                    </div>
+                </div>
+                <div class="col-sm-6" data-aos="flip-left" data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <img src="/assets/img/hero-img.png" alt="Hero Banner" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- client section  -->
+    <div class="client bg-light" data-aos="fade-up">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-sm-2 text-center">
+                    <img src="/assets/img/clients/client-1.png" alt="Client" class="w-75">
+                </div>
+                <div class="col-sm-2 text-center">
+                    <img src="/assets/img/clients/client-2.png" alt="Client" class="w-75">
+                </div>
+                <div class="col-sm-2 text-center">
+                    <img src="/assets/img/clients/client-3.png" alt="Client" class="w-75">
+                </div>
+                <div class="col-sm-2 text-center">
+                    <img src="/assets/img/clients/client-4.png" alt="Client" class="w-75">
+                </div>
+                <div class="col-sm-2 text-center">
+                    <img src="/assets/img/clients/client-5.png" alt="Client" class="w-75">
+                </div>
+                <div class="col-sm-2 text-center">
+                    <img src="/assets/img/clients/client-6.png" alt="Client" class="w-75">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div class="about" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+        <div class="container">
+            <!-- title  -->
+            <div class="row p-5">
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <h3 class="text-uppercase fw-bold ctext-primary text-center border-bottom about-title-border">About Us</h3>
+                </div>
+            </div>
+            <!-- section 1  -->
+            <div class="row pb-5">
+                <div class="col-sm-6 text-secondary">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit laboriosam iure nihil neque, voluptatem modi soluta sapiente quae pariatur a explicabo, libero unde ut architecto! Hic non reiciendis quia sed.
+                    </p>
+                    <div class="d-flex flex-column">
+                        <span><i class="bi bi-check2-circle text-info"></i> Lorem ipsum dolor sit amet consectetur</span>
+                        <span><i class="bi bi-check2-circle text-info"></i> Lorem ipsum dolor consectetur</span>
+                        <span><i class="bi bi-check2-circle text-info"></i> Lorem ipsum dolor sit amet </span>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-secondary">
+                    <p>
+                        Lorem ipsum dolor, aspernatur disgni architecto veritatis quisquam perferendis! Debitis!
+                        Dolorem quasi voluptates veritatis obcaecati repudiandae impedit iure numquam officia ipsa illum maxime rem, id doloremque odio quia iste, sint vitae. Id sint officiis facere praesentium impedit laborum quam exercitationem.
+                    </p>
+                    <a href="#" class="btn btn-outline-info border-2 fw-bold px-4">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- section 2  -->
+            <div class="row py-5">
+                <div class="col-sm-6" data-aos="zoom-in" data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <img src="/assets/img/skills.png" alt="Skill banner" class="w-100">
+                </div>
+                <div class="col-sm-6">
+                    <h3 class="fw-bold ctext-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quisquam error ex eius iusto amet tempore ea culpa cupiditate, commodi, nulla voluptas sit illo repellat cum earum, necessitatibus mollitia voluptatem!</p>
+                   
+                    <!-- html  -->
+                    <div class="pb-3" data-aos="slide-left" data-aos-easing="linear"
+                    data-aos-duration="1000">
+                        <div class="w-100">
+                            <span class="fw-bold float-start ctext-primary" style="font-size: 12px;">HTML</span>
+                            <span class="fw-bold float-end ctext-primary" style="font-size: 12px;">100%</span>
+                        </div>
+                        <div class="progress rounded-0 w-100" role="progressbar" aria-label="HTML" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar  cbg-primary" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <!-- CSS  -->
+                    <div class="pb-3" data-aos="slide-left" data-aos-easing="linear"
+                    data-aos-duration="1500">
+                        <div class="w-100">
+                            <span class="fw-bold float-start ctext-primary" style="font-size: 12px;">CSS</span>
+                            <span class="fw-bold float-end ctext-primary" style="font-size: 12px;">90%</span>
+                        </div>
+                        <div class="progress rounded-0 w-100" role="progressbar" aria-label="CSS" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar  cbg-primary" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <!-- JavaScript  -->
+                    <div class="pb-3" data-aos="slide-left" data-aos-easing="linear"
+                    data-aos-duration="2000">
+                        <div class="w-100">
+                            <span class="fw-bold float-start ctext-primary" style="font-size: 12px;">JAVASCRIPT</span>
+                            <span class="fw-bold float-end ctext-primary" style="font-size: 12px;">75%</span>
+                        </div>
+                        <div class="progress rounded-0 w-100" role="progressbar" aria-label="JavaScript" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar  cbg-primary" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                     <!-- Potoshop  -->
+                     <div class="pb-3" data-aos="slide-left" data-aos-easing="linear"
+                     data-aos-duration="3000">
+                        <div class="w-100">
+                            <span class="fw-bold float-start ctext-primary" style="font-size: 12px;">PHOTOSHOP</span>
+                            <span class="fw-bold float-end ctext-primary" style="font-size: 12px;">45%</span>
+                        </div>
+                        <div class="progress rounded-0 w-100" role="progressbar" aria-label="Potoshop" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar  cbg-primary" style="width: 45%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service section  -->
+    <div class="service bg-light" data-aos="fade-up" data-aos-easing="linear"
+    data-aos-duration="1000">
+        <div class="container">
+            <!-- title  -->
+            <div class="row pt-5 pb-3" >
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <h3 class="text-uppercase fw-bold ctext-primary text-center border-bottom about-title-border">Services</h3>
+                </div>
+            </div>
+            <!-- description  -->
+            <div class="row pb-5">
+                <div class="col-sm-12 text-center">
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. quis voluptate eaque architecto aperiam magni sunt!</p>
+                </div>
+            </div>
+
+            <!-- card  -->
+            <div class="row pb-5" >
+                <div class="col-sm-3" data-aos="flip-left">
+                    <div class="card w-100 border-0 p-3">
+                        <div class="card-body">
+                            <i class="bi bi-app-indicator fs-1 text-info"></i>
+                            <h5 class="card-title ctext-primary fw-bold">Service 1</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3" data-aos="flip-left">
+                    <div class="card w-100 border-0 p-3">
+                        <div class="card-body">
+                            <i class="bi bi-heart fs-1 text-info"></i>
+                            <h5 class="card-title ctext-primary fw-bold">Service 2</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3" data-aos="flip-left">
+                    <div class="card w-100 border-0 p-3">
+                        <div class="card-body">
+                            <i class="bi bi-activity fs-1 text-info"></i>
+                            <h5 class="card-title ctext-primary fw-bold">Service 3</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3" data-aos="flip-left">
+                    <div class="card w-100 border-0 p-3">
+                        <div class="card-body">
+                            <i class="bi bi-cart fs-1 text-info"></i>
+                            <h5 class="card-title ctext-primary fw-bold">Service 4</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section  -->
+     <div class="footer">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-sm-4">
+                    <h3 class="ctext-primary text-uppercase fw-bold">Arsha</h3>
+                    <div class="text-secondary">
+                        <span>Aidiw Adad sskskks</span> <br>
+                        <span>New York, NY 500023</span> <br><br>
+                        <span><strong>Phone:</strong> +1 8383 3939 32 </span><br>
+                        <span><strong>Email:</strong> info@example.com </span><br>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h5 class="ctext-primary fw-bold">Usefull Links</h5>
+                    <div class="d-flex flex-column">
+                        <span><i class="fa-solid fa-angle-right text-info"></i> <a href="index.html" class="text-decoration-none text-secondary"> Home</a></span>
+                        <span><i class="fa-solid fa-angle-right text-info"></i> <a href="about.html" class="text-decoration-none text-secondary"> About</a></span>
+                        <span><i class="fa-solid fa-angle-right text-info"></i> <a href="service.html" class="text-decoration-none text-secondary"> Sevices</a></span>
+                        <span><i class="fa-solid fa-angle-right text-info"></i> <a href="term.html" class="text-decoration-none text-secondary"> Term of service</a></span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h5 class="ctext-primary fw-bold">Our Services</h5>
+                    <div class="d-flex flex-column">
+                        <span><i class="fa-solid fa-angle-right text-info"></i> <a href="index.html" class="text-decoration-none text-secondary"> Web Design</a></span>
+                        <span><i class="fa-solid fa-angle-right text-info"></i> <a href="about.html" class="text-decoration-none text-secondary"> Web Development</a></span>
+                        <span><i class="fa-solid fa-angle-right text-info"></i> <a href="service.html" class="text-decoration-none text-secondary"> Product Management</a></span>
+                        <span><i class="fa-solid fa-angle-right text-info"></i> <a href="term.html" class="text-decoration-none text-secondary"> Marketing</a></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <h5 class="ctext-primary fw-bold">Follow Us</h5>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="d-flex">
+                        <div class="d-flex border rounded-circle align-items-center justify-content-center me-3 text-secondary" style="width: 40px; height: 40px;"><i class="fa-brands fa-square-x-twitter fs-3"></i></div>
+                        <div class="d-flex border rounded-circle align-items-center justify-content-center me-3 text-secondary" style="width: 40px; height: 40px;"><i class="fa-brands fa-square-facebook fs-3"></i></div>
+                        <div class="d-flex border rounded-circle align-items-center justify-content-center me-3 text-secondary" style="width: 40px; height: 40px;"><i class="fa-brands fa-square-instagram fs-3"></i></div>
+                        <div class="d-flex border rounded-circle align-items-center justify-content-center me-3 text-secondary" style="width: 40px; height: 40px;"><i class="fa-brands fa-linkedin fs-3"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- copyright footer section -->
+     <div class="copyright">
+        <div class="container">
+            <div class="row border-top py-4">
+                <div class="col-sm-12">
+                    <p class="text-center text-secondary"><i class="fa-regular fa-copyright"></i> Copyright <strong>Arsha</strong> All right reserved</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <script src="/assets/boostrap5/js/bootstrap.min.js"></script>
+    <!-- icon  -->
+    <script src="https://kit.fontawesome.com/8437ecd41c.js" crossorigin="anonymous"></script>
+    <!-- animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
