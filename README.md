@@ -3,7 +3,7 @@
 This project is built with the bootstrap 5. <br>
 This project is the final project for bootstrap course. <br>
 This project template is inspired by https://bootstrapmade.com/content/demo/Arsha <br>
-Watch on YouTube https://www.youtube.com/@LomhoDev <br>
+Watch on YouTube https://youtu.be/D_fYNEDWv_U?si=29Q3nE-XAbVyzM1c <br>
 
 Resourse: <br>
 Bootstrap 5 - https://getbootstrap.com/docs/5.2/getting-started/introduction <br>
